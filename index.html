@@ -1,4 +1,5 @@
 <!doctype html lang="en">
+<html>
 
 <head>
     <meta title="the flat" dir="ltr" charset="utf-8" content="FlatHost provides one page and multipage Responsive HTML5 Domain and Hosting Template
@@ -6,11 +7,12 @@
           . Full layered PSD included. Sections includes Features,
           Testimonials, Partners, Pricing, Sign in, Sign up, Domain Search,
           Contact etc.." />
+
     <title>FlatHost</title>
     <!--css files-->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/all.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/hover-min.css" />
 
@@ -19,14 +21,231 @@
     <script scr="html5shiv.js"></script> <!--html5shiv is an HTML5 JavaScript shim for IE to recognise and style the HTML5 elements-->
     <script scr="respond.js"></script> <!--respond.js is a fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)-->
     <script type="text/javascript" src="js/all.js"></script>
-    
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
 
 
 
 </head>
 <body>
+    <!--starting flat logo and navbar-->
+    <header>
+        <div id="logo">
+            <h1>flat<span>host</span></h1>
+        </div>
 
 
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active hvr-Grow-Shadow">home</a></li>
+                <li><a href="index1.html" class="hvr-Grow-Shadow" >features</a></li>
+                <li><a href="index2.html" class="hvr-Grow-Shadow">partners</a></li>
+                <li><a href="index3.html" class="hvr-Grow-Shadow">pricing</a></li>
+                <li><a href="index4.html" class="hvr-Grow-Shadow">blog</a></li>
+                <li><a href="index5.html" class="hvr-Grow-Shadow">contact</a></li>
+                <li><a href="index6.html" class="hvr-Grow-Shadow">login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--start carousel-->
+
+    <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade active">
+    <img src="carosuel-images/01.jpg" >
+    <div class="text">
+        <h1>Web Design</h1>
+          <p>Transition animations not supported in Internet Explorer 8 & 9Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+
+
+      </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="carosuel-images/02.jpg" >
+    <div class="text">
+      <h1>Desktop</h1>
+          <p>Transition animations not supported in Internet Explorer 8 & 9Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+      </div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="carosuel-images/03.jpg" >
+    <div class="text">
+        <h1>Web Hosting</h1>
+          <p>Transition animations not supported in Internet Explorer 8 & 9Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+
+      </div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+</div>
+
+
+
+
+    <!--start services-->
+
+<section class="services">
+    <ul>
+        <li class="hvr-Float">
+           <i class="fas fa-shield-alt fa-5x"></i>
+            <h1>Secure & Reliable</h1>
+            <P>Flathost servers are having high physical security and power reduduncy your data will be secure with us</P>
+        </li>
+
+        <li class="hvr-Float">
+                <i class="fas fa-rocket fa-5x"></i>
+                <h1>Super Fast</h1>
+                <P>with our ultra modern servers and optical cabels,your data will be transferred to end user in melliseconds</P>
+            </li>
+
+            <li class="hvr-Float">
+                <i class="fas fa-comments fa-5x"></i>
+                <h1>Customer Support</h1>
+                <P>we have a deticated of support for sales and support to help you in anytime and you can also chat with us</P>
+            </li>
+    </ul>
+
+</section>
+
+    <!--start features section-->
+    <section class="feat">
+        <h1>more features</h1>
+        <h3>you will get alot of features with FlatHost</h3>
+
+        <ul>
+            <li class="hvr-Shadow">
+                <i class="fas fa-cog fa-3x"></i>
+                <h4>Instant Setup</h4>
+                <h5>As soon as you make a successful payment via PayPal or Google Checkout, your web hosting and domain names will be activated immediately. No waiting time whatsoever.</h5>
+            </li>
+
+
+            <li class="hvr-Shadow">
+                <i class="fas fa-toolbox fa-3x"></i>
+                <h4>Constant Backups</h4>
+                <h5>Your hosting account is backed up 4 times a day as standard, with our backup integration. We use dedicated backup servers, providing fast & easy individual file rollback abilities.</h5>
+                </li>
+
+            <li class="hvr-Shadow">
+                <i class="fab fa-git-alt fa-3x"></i>
+                <h4>GIT/SVN Support</h4>
+                <h5>Web Developers love using version control systems. All of our hosting accounts can use GIT & SVN command line tools on our servers. Simply request SSH access to get started.</h5>
+            </li>
+
+
+            <li class="hvr-Shadow">
+                <i class="fab fa-wordpress fa-3x"></i>
+                <h4>280+ Install Scripts</h4>
+                <h5>All our hosting accounts allow you to install popular software such as Wordpress, Drupal, Joolma and Magento in one easy step. Upgrading your software is just as easy!</h5>
+            </li>
+
+            <li class="hvr-Shadow">
+                <i class="fas fa-clipboard-list fa-3x"></i>
+                <h4>cPanel Included</h4>
+                <h5>All hosting accounts come with the latest version of cPanel. This makes life easy for you to do routine tasks such as setting up email addresses and managing MySQL databases.</h5>
+            </li>
+
+            <li class="hvr-Shadow">
+                <i class="fab fa-php fa-3x"></i>
+                <h4>Latest PHP & MySQL</h4>
+                <h5>Our network runs the latest stable and secure versions of PHP & MySQL. We also implement strict security and firewall rules protecting your website from unwanted visitors 24/7.</h5>
+            </li>
+        </ul>
+    </section>
+
+
+
+
+
+
+
+    <!--start footer-->
+
+    <footer>
+        <div class="blank">
+
+        <ul class="head">
+
+            <li class="child">
+                <h1>CALL US</h1>
+                    <ul>
+                        <li class="hvr-Push"><p>+1 4528 254 247</p></li>
+                        <li class="hvr-Push"><p>+1 4002 188 355</p></li>
+                    </ul>
+            </li>
+
+            <li class="child">
+              <h1>FOLLOW US</h1>
+              <ul>
+
+                   <li class="hvr-Push"><a href="https://twitter.com/">twitter</a>
+                    </li>
+
+                    <li class="hvr-Push"><a href="https://www.facebook.com/">Like us on Facebook</a>
+                    </li>
+                    <li class="hvr-Push"><a href="https://www.linkedin.com/in/mahmoud-khallaf-830869178/">Join on Linkedin</a></li>
+                </ul>
+            </li>
+
+
+            <li class="child">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li class="hvr-Push"><a href="#">About us</a></li>
+                    <li class="hvr-Push"><a href="#">Latest from Blog</a>
+                    </li>
+                    <li class="hvr-Push"><a href="#">Our Team</a></li>
+                </ul>
+            </li>
+
+
+
+            <li class="child">
+                <h1>EMAIL US</h1>
+                <ul>
+                    <li class="hvr-Push"><a href="#">support@mail.com</a></li>
+                    <li class="hvr-Push"><a href="#">sales@mail.com</a></li>
+                </ul>
+            </li>
+
+
+            <li class="child">
+                <h1>LEGAL TERMS</h1>
+                <ul>
+                    <li class="hvr-Push">
+                    <a href="#">Terms of use</a>
+                    </li>
+                     <li class="hvr-Push">
+                      <a href="#">Privacy Policy</a></li>
+                </ul>
+            </li>
+        </ul>
+
+            <h4>Copyright © 2019. Flathost Inc</h4>
+            <div id="logo">
+            <h1>flat<span>host</span></h1>
+            </div>
+
+    </div>
+  </footer>
+
+
+    <script src="js/all.min.js" type="text/javascript"></script>
 
 </body>
 
